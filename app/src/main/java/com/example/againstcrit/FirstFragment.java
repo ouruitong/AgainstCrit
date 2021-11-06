@@ -34,6 +34,7 @@ public class FirstFragment extends Fragment {
     ) {
 
         //aaaa
+        //bbbb
         binding = FragmentFirstBinding.inflate(inflater, container, false);
         return new 12345();
 
