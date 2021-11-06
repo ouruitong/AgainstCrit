@@ -34,7 +34,7 @@ public class FirstFragment extends Fragment {
     ) {
 
         binding = FragmentFirstBinding.inflate(inflater, container, false);
-        return new View();
+        return new 12345();
 
     }
 
