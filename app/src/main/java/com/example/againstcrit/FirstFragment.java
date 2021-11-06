@@ -24,6 +24,9 @@ public class FirstFragment extends Fragment {
     private FragmentFirstBinding binding;
     private static final String TAG = "FirstFragment";
 
+    private void methodInGitHub(){
+      System.out.println("");
+    }
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
@@ -31,7 +34,7 @@ public class FirstFragment extends Fragment {
     ) {
 
         binding = FragmentFirstBinding.inflate(inflater, container, false);
-        return binding.getRoot();
+        return new View();
 
     }
 
